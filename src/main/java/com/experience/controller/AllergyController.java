@@ -19,6 +19,9 @@ public class AllergyController {
 	int a = 100;
 	int c = a++;
 	
+	// adding this line for checking whether the jenkins is doing its automatic-job or not
+	System.out.println("one extra line is added");
+	
 	@Autowired
 	private AllergyService allergyservice;
 		
